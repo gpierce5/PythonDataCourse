@@ -69,7 +69,15 @@
      "slide_type": "subslide"
     }
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jojo\n"
+     ]
+    }
+   ],
    "source": [
     "class Dog:\n",
     "\n",
@@ -100,7 +108,15 @@
      "slide_type": "fragment"
     }
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['roll over', 'play dead', 'flippy flip']\n"
+     ]
+    }
+   ],
    "source": [
     "class Dog:\n",
     "\n",
@@ -205,7 +221,16 @@
      "slide_type": "subslide"
     }
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "gender:  blub\n",
+      "{'name': 'Jojo', 'age': 6, 'gender': 'blub', 'tricks': []}\n"
+     ]
+    }
+   ],
    "source": [
     "mydog.gender = 'blub'\n",
     "print('gender: ', mydog.gender)\n",
@@ -393,7 +418,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+<<<<<<< HEAD
+   "execution_count": 12,
+=======
+   "execution_count": 14,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [],
    "source": [
@@ -441,6 +470,9 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 13,
+=======
    "execution_count": 16,
    "metadata": {},
    "outputs": [
@@ -492,7 +524,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 15,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -501,7 +534,11 @@
      "text": [
       "1\n",
       "b=2\n",
-      "<bound method Test.a_not_decorated of <__main__.Test object at 0x11a9c15d0>>\n",
+<<<<<<< HEAD
+      "<bound method Test.a_not_decorated of <__main__.Test object at 0x11c09e350>>\n",
+=======
+      "<bound method Test.a_not_decorated of <__main__.Test object at 0x105ebd490>>\n",
+>>>>>>> upstream/master
       "1\n",
       "loaded instance\n",
       "{'_a': 1, '_b': 2}\n",
@@ -533,7 +570,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 14,
+=======
+   "execution_count": 13,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -543,7 +584,11 @@
      "traceback": [
       "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
       "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+<<<<<<< HEAD
       "\u001b[0;32m<ipython-input-14-011215e55771>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mtest\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'new object'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+=======
+      "\u001b[0;32m<ipython-input-13-011215e55771>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mtest\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'new object'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+>>>>>>> upstream/master
       "\u001b[0;31mAttributeError\u001b[0m: can't set attribute"
      ]
     }
@@ -554,7 +599,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+<<<<<<< HEAD
+   "execution_count": 15,
+=======
+   "execution_count": 17,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [],
    "source": [
@@ -594,7 +643,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+<<<<<<< HEAD
+   "execution_count": 16,
+=======
+   "execution_count": 18,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [
     {
@@ -612,8 +665,13 @@
      "traceback": [
       "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
       "\u001b[0;31mAssertionError\u001b[0m                            Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-11-fe2e59dc787f>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtest2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m \u001b[0mtest2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'asdf'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
-      "\u001b[0;32m<ipython-input-10-b6c316c2c8e7>\u001b[0m in \u001b[0;36ma\u001b[0;34m(self, value)\u001b[0m\n\u001b[1;32m     14\u001b[0m     \u001b[0;34m@\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msetter\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 16\u001b[0;31m         \u001b[0;32massert\u001b[0m \u001b[0misinstance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mint\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'must be float or int'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     17\u001b[0m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_a\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     18\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+<<<<<<< HEAD
+      "\u001b[0;32m<ipython-input-16-fe2e59dc787f>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtest2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m \u001b[0mtest2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'asdf'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;32m<ipython-input-15-382fc5d3862a>\u001b[0m in \u001b[0;36ma\u001b[0;34m(self, value)\u001b[0m\n\u001b[1;32m     15\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     16\u001b[0m         \u001b[0;31m#assert that it is the type you want\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 17\u001b[0;31m         \u001b[0;32massert\u001b[0m \u001b[0misinstance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mint\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'must be float or int'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     18\u001b[0m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_a\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     19\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+=======
+      "\u001b[0;32m<ipython-input-18-fe2e59dc787f>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtest2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m \u001b[0mtest2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'asdf'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;32m<ipython-input-17-b6c316c2c8e7>\u001b[0m in \u001b[0;36ma\u001b[0;34m(self, value)\u001b[0m\n\u001b[1;32m     14\u001b[0m     \u001b[0;34m@\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msetter\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 16\u001b[0;31m         \u001b[0;32massert\u001b[0m \u001b[0misinstance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mint\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'must be float or int'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     17\u001b[0m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_a\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mvalue\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     18\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+>>>>>>> upstream/master
       "\u001b[0;31mAssertionError\u001b[0m: must be float or int"
      ]
     }
@@ -785,7 +843,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": null,
+=======
+   "execution_count": 19,
+>>>>>>> upstream/master
    "metadata": {
     "slideshow": {
      "slide_type": "subslide"
@@ -834,7 +896,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": null,
+=======
+   "execution_count": 20,
+>>>>>>> upstream/master
    "metadata": {
     "slideshow": {
      "slide_type": "subslide"
@@ -925,7 +991,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": null,
+=======
+   "execution_count": 25,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [],
    "source": [
@@ -943,9 +1013,51 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": null,
    "metadata": {},
    "outputs": [],
+=======
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['__class__',\n",
+       " '__delattr__',\n",
+       " '__dict__',\n",
+       " '__dir__',\n",
+       " '__doc__',\n",
+       " '__eq__',\n",
+       " '__format__',\n",
+       " '__ge__',\n",
+       " '__getattribute__',\n",
+       " '__gt__',\n",
+       " '__hash__',\n",
+       " '__init__',\n",
+       " '__init_subclass__',\n",
+       " '__le__',\n",
+       " '__lt__',\n",
+       " '__module__',\n",
+       " '__ne__',\n",
+       " '__new__',\n",
+       " '__reduce__',\n",
+       " '__reduce_ex__',\n",
+       " '__repr__',\n",
+       " '__setattr__',\n",
+       " '__sizeof__',\n",
+       " '__str__',\n",
+       " '__subclasshook__',\n",
+       " '__weakref__']"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+>>>>>>> upstream/master
    "source": [
     "dir(YourClass)\n",
     "# some magic methods have a default implementation"
@@ -953,7 +1065,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": null,
+=======
+   "execution_count": 27,
+>>>>>>> upstream/master
    "metadata": {},
    "outputs": [],
    "source": [
